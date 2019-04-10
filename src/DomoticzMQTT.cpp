@@ -113,7 +113,7 @@ void DomoticzMQTT::sendTemperature(int idx, float temp)
 
 void DomoticzMQTT::sendTemperatureAndHumidity(int idx, float temp, float hum)
 {
-    String data = String(temp,2) + ";" + String(hum,2);
+    String data = String(temp,2) + ";" + String(hum,2) + ";0";
     this->updateDevice(idx, data);
 }
 
