@@ -2,9 +2,15 @@
     "name": "DomoticzMQTT",
     "description": "MQTT Client for Domoticz for controling devices and receiving statuses",
     "authors": "Puzon",
+    "version": "0.1.0",
     "platforms": [
         "espressif8266"
     ],
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/puzon/ESP_DomoticzMQTT_library.git"
+    },
     "dependecies": [
         {
             "name": "ArduinoJson",
