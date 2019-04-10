@@ -1,11 +1,14 @@
 {
     "name": "DomoticzMQTT",
     "description": "MQTT Client for Domoticz for controling devices and receiving statuses",
-    "authors": "Puzon",
+    "authors": {
+        "name": "Michał Blaumann",
+        "email": "michal.blaumann@gmail.com",
+        "url": "https://binteractive.pl/"
+    },
     "version": "0.1.0",
-    "platforms": [
-        "espressif8266"
-    ],
+    "frameworks": "arduino",
+    "platforms": "espressif8266",
     "repository":
     {
         "type": "git",
